@@ -2024,6 +2024,22 @@ describe('parseType', function () {
         doctrine.parseType.bind(doctrine, "(").should.throw('unexpected token');
         doctrine.parseType.bind(doctrine, "Test.").should.throw('unexpected token');
     });
+
+    it('relative path type', function () {
+        var type = doctrine.parseType('./Foo.bar');
+        type.should.eql({
+            "name": "./Foo.bar",
+            "type": "NameExpression"
+        });
+    });
+
+    it('relative parent path type', function () {
+        var type = doctrine.parseType('../Foo.bar');
+        type.should.eql({
+            "name": "../Foo.bar",
+            "type": "NameExpression"
+        });
+    });
 });
 
 describe('parseParamType', function () {
