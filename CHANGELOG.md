@@ -1,3 +1,8 @@
+v3.0.1 - June 28, 2019
+
+* [`bea78fd`](https://github.com/jridgewell/doctrine/commit/bea78fd3291aef7b113be20b18b55b7f2f8f72e3) Support relative path imports (Justin Ridgewell)
+* [`0e8eba7`](https://github.com/jridgewell/doctrine/commit/0e8eba7f80b89cc8185541dda4e90c961d1d3553) Docs: add deprecation notice to readme (#227) (Kai Cataldo)
+
 v3.0.0 - November 9, 2018
 
 * 0b5a8c7 Breaking: drop support for Node < 6 (#223) (Kai Cataldo)
