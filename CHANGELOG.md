@@ -1,3 +1,7 @@
+v3.0.2 - June 28, 2019
+
+* [`888cb52`](https://github.com/jridgewell/doctrine/commit/888cb52f51a902bf380f07f21304fe93691294a5) Change package name to @jridgewell/doctrine (Justin Ridgewell)
+
 v3.0.1 - June 28, 2019
 
 * [`bea78fd`](https://github.com/jridgewell/doctrine/commit/bea78fd3291aef7b113be20b18b55b7f2f8f72e3) Support relative path imports (Justin Ridgewell)
