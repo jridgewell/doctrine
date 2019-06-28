@@ -1,5 +1,5 @@
 {
-  "name": "doctrine",
+  "name": "@jridgewell/doctrine",
   "description": "JSDoc parser",
   "homepage": "https://github.com/jridgewell/doctrine",
   "main": "lib/doctrine.js",
